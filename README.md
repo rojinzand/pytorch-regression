@@ -10,24 +10,24 @@ The goal is to understand the basic workflow of training a neural network, inclu
 ---
 
 ## Model Architecture
-- Input layer: 1 neuron
-- Hidden layers: 20 → 20 neurons
-- Activation function: ReLU
-- Output layer: 1 neuron
+- Input layer: 1 neuron  
+- Hidden layers: 20 → 20 neurons  
+- Activation function: ReLU  
+- Output layer: 1 neuron  
 
 ---
 
 ## Technologies Used
-- Python
-- PyTorch
-- Matplotlib
+- Python  
+- PyTorch  
+- Matplotlib  
 
 ---
 
 ## Training Process
-- Loss function: Mean Squared Error (MSE)
-- Optimizer: Adam (or SGD depending on implementation)
-- Training loop includes forward pass, loss calculation, backward pass, and parameter updates.
+- Loss function: Mean Squared Error (MSE)  
+- Optimizer: Adam (or SGD depending on implementation)  
+- Training loop includes forward pass, loss calculation, backward pass, and parameter updates  
 
 ---
 
@@ -42,11 +42,10 @@ The training loss decreases over epochs, and predictions closely follow the true
 ```bash
 python regression.py
 
----
-
 ## What I Learned
 - Building neural networks in PyTorch  
-- Writing a training loop (forward pass, loss, backward pass, optimizer step)  
-- Understanding regression problems  
-- Visualizing results using Matplotlib  
+- Writing a training loop (forward pass, loss computation, backward pass, optimizer step)  
+- Understanding regression problems (learning y = x²)  
+- Using activation functions like ReLU  
+- Visualizing results with Matplotlib  
 - Basic idea of overfitting and generalization
